@@ -1,0 +1,32 @@
+.docs-container{
+    flex: 1 1 300px;
+    background-color: #FDFDEB;
+
+    display: grid;
+    grid-template-columns: 90%;
+    grid-template-rows: 40px auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+#editor-container{   
+    flex: 0 1 90%;
+    height: 90%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+#doc-title{
+    width: 25%;
+    margin-top: 20px;
+    background-color: #FDFDEB;
+    border: none;
+    outline-color: rgba(0, 0, 0, 0.19)
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+#doc-title:hover{
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}

@@ -1,0 +1,86 @@
+.signup-page-container{
+    margin: 0;
+    padding: 0;
+    background-color: #FDFDEB;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container{
+    flex: 0 1 500px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: #09194F;
+    border:2px solid #F9CE00;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    height: 100px;
+}
+
+#signup-quote{
+    font-family: 'Comic Neue', cursive;
+    color:#F9CE00;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:10px 0 10px 0;
+}
+
+.signup-input{
+    margin: 5px 0 5px 0;
+    background-color: #FDFDEB;
+    border:1px solid #F9CE00;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    outline: none;
+}
+
+#signup-button{
+    margin:20px auto 0 auto;
+    padding: 10px;
+    width: 80px;
+    color: white;
+    background-color: #00818A;
+    font-family: 'Source Code Pro', monospace;
+    border-color: #09194F;
+}
+
+#signup-button:hover{
+    background-color: #FDFDEB;
+    color: black;
+    cursor: pointer;
+    border-color: #F9CE00;
+    color: #09194F;
+}
+
+.alternative{
+    margin-top: 5px;
+    background-color: #09194F;
+    border:1px solid #F9CE00;
+    height: 50px;
+    color: white;
+    padding: 5px;
+}
+
+#have-account{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5vh;
+}
